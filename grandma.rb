@@ -5,8 +5,8 @@ def speak_to_grandma (phrase)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 
-  if phrase == "#{phrase}".downcase 
-    puts "HUH?! SPEAK UP, SONNY!"
+  if phrase = phrase.downcase 
+    return "HUH?! SPEAK UP, SONNY!"
 
 # unless you shout it (type in all capitals).
 
@@ -15,8 +15,8 @@ def speak_to_grandma (phrase)
 
 # NO, NOT SINCE 1938!
 
-  elsif phrase == "#{phrase}".upcase
-    puts "NO, NOT SINCE 1938!"
+  elsif phrase = phrase.upcase
+    return "NO, NOT SINCE 1938!"
 
 
 
@@ -24,6 +24,6 @@ def speak_to_grandma (phrase)
 # 'I LOVE YOU TOO PUMPKIN!'
 
   else phrase == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
     
 end
