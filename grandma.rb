@@ -5,7 +5,7 @@ def speak_to_grandma (phrase)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 
-  if phrase.downcase 
+  if phrase == "#{phrase}".downcase 
     puts "HUH?! SPEAK UP, SONNY!"
 
 # unless you shout it (type in all capitals).
@@ -15,7 +15,7 @@ def speak_to_grandma (phrase)
 
 # NO, NOT SINCE 1938!
 
-  elsif phrase.upcase
+  elsif phrase == "#{phrase}".upcase
     puts "NO, NOT SINCE 1938!"
 
 
